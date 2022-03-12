@@ -94,7 +94,7 @@ header { background-color: #f0f0f0; }
 
 .footer--inferior { height: auto; background-color: #313131; color: white; font-family: "Ubuntu", sans-serif; font-size: 1.2rem; }
 
-.footer--imagen { width: 2rem; }
+.footer--imagen { width: 2rem; height: 2rem; }
 
 .footer--horarios { color: white; font-family: "Ubuntu", sans-serif; }
 
