@@ -9,14 +9,14 @@
     height: 100vh;
     width: 100%;
   }
-  .hero__div--fondo {
-    overflow: hidden;
-    height: 50vh;
+  //Margen del contenedor del titulo del hero//
+  .hero__div--title{
+    margin-left: 1.5rem;
+  }
+  //Ancho del titulo del hero//
+  .div__title--hero{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    top: unset;
+    
   }
   
 }
@@ -24,7 +24,10 @@
   .div__conexion {
     display: none;
   }
-  
+  //Tamaño del titulo del hero//
+  .div__title--hero{
+    font-size: 1.8rem;
+  }
   .hero__img--laptop {
   position: absolute;
   width: 25rem;
@@ -32,8 +35,5 @@
   bottom: -8rem;
   left: 0;
   }
-  .fondo{
-    min-height: 100%;
-    width: 100%;
-  }
+ 
 }

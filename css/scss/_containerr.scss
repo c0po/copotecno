@@ -1,0 +1,34 @@
+@import "./variables";
+//Ajustes de contenedor principal//
+.main {
+  width: 100%;
+  min-height: 100vh;
+  background-color: $color-fondo-primario;
+  overflow: hidden;
+  border-radius: 0.2rem;
+  &__h3 {
+    background-color: #69a7cec4;
+    padding: 0.1rem 0rem 0rem 1rem;
+    border-radius: 0.2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  &__parrafo {
+    font-family: "Ubuntu", sans-serif;
+    text-align: left;
+    line-height: 1.5rem;
+    font-size: 1.3rem;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+  }
+}
+//Fondo destacados//
+.article--destacados{
+  background-color:$color-primario;
+  min-height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.3rem;
+}

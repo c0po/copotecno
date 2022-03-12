@@ -44,11 +44,9 @@
 .hero--animaciondos{
   animation: subir 2.5s 1;
   transition-timing-function: ease-in;
-  
 }
 .hero--animacionuno{
   animation: subir 3s 1;
-  
 }
 
 @keyframes subir{
@@ -74,5 +72,25 @@
   }
   100%{
     transform: translateY(0.5rem);
+  }
+}
+//Animaion titulo importante//
+.destacado {
+  animation: fondo 5s infinite;
+  width: 100%;
+  padding: 0.3rem 0.3rem 0.3rem 0.3rem;
+  border-radius: 0.15rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  @keyframes fondo {
+    0% {
+      background-color: $color-fondo-transparente;
+    }
+    50% {
+      background-color: $color-animacion;
+    }
+    100% {
+      background-color: $color-fondo-transparente;
+    }
   }
 }
