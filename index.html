@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <!--Descripción Index-->
+  <meta name="description" content="Servicio técnico especializado en reparaciones de equipos informáticos y móviles.">
+  <!--Keywords-->
+  <meta name="keywords"
+    content="Servicio técnico, computadoras, celulares, notebooks, reparación, técnico, informatica">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--Link Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <!--AOS-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!--Link Favicons-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./media/favicon" />
+  <link rel="apple-touch-icon" sizes="60x60" href="./media/favicon/apple-icon-60x60.png" />
+  <link rel="apple-touch-icon" sizes="72x72" href="./media/favicon/apple-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="76x76" href="./media/favicon/apple-icon-76x76.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="./media/favicon/apple-icon-114x114.png" />
+  <link rel="apple-touch-icon" sizes="120x120" href="./media/favicon/apple-icon-120x120.png" />
+  <link rel="apple-touch-icon" sizes="144x144" href="./media/favicon/apple-icon-144x144.png" />
+  <link rel="apple-touch-icon" sizes="152x152" href="./media/favicon/apple-icon-152x152.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./media/favicon/apple-icon-180x180.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./media/favicon/android-icon-192x192.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./media/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./media/favicon/favicon-96x96.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./media/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./media/favicon/manifest.json" />
+  <meta name="msapplication-TileColor" content="#ffffff" />
+  <meta name="msapplication-TileImage" content="ms-icon-144x144.png" />
+  <meta name="theme-color" content="#ffffff" />
+  <!--Link css-->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!--Título-->
+  <title>Copotecno</title>
+</head>
+
+<body>
+  <header class="header">
+    <!--Nav-->
+    <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top nav">
+      <div class="container-fluid a__logo">
+        <!--Logo de marca nav-->
+        <a class="navbar-brand " href="./index.html">
+          <img src="./media/logo.svg" class="nav--logo" alt="Logo de Copotec" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar">
+          <span class="nav__menu--img">
+            <!--Imagen de boton-->
+            <img class="boton--nav" src="./media/list-nested.svg" alt="boton">
+          </span>
+        </button>
+        <!--Cuerpo de la Nav-->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <a class="navbar-brand " href="./index.html">
+              <img src="./media/logo.svg" class="nav--logo" alt="Logo de Copotec" />
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav--link">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item nav--link dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">
+                  Servicio Técnico
+                </a>
+                <ul class="dropdown-menu nav__ul--fondo" aria-labelledby="offcanvasNavbarDropdown">
+                  <li>
+                    <a class="nav-link" href="./pages/computadoras.html">Computadoras</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider nav__li--a" />
+                  </li>
+                  <li>
+                    <a class="nav-link" href="./pages/celulares.html">Celulares</a>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider nav__li--a" />
+                  </li>
+                  <li>
+                    <a class=" nav-link" href="./pages/cotizaciones.html">Cotizaciones</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav--link">
+                <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--hero en contenedor fluid p-0-->
+    <div class="container-fluid p-0">
+      <div class="row m-0 hero">
+        <div class=" col-lg-7 col-md-12 ">
+          <div class="hero__div--title pt-5 d-flex flex-column justify-content-around align-items-center">
+            <h2 data-aos="zoom-in" class="div__title--hero br-2 p-2">Servicio técnico
+              <br>
+              <span class="div__title--importante">Especializado</span>
+            </h2>
+            <a class="span__a--link " data-aos="zoom-in" href="./pages/contacto.html">Comunícate</a>
+          </div>
+        </div>
+        <div class="hero__div--fondo">
+          <img class="fondo" src="./media/herofondo.svg" alt="fondo" data-aos="fade-up" data-aos-duration="3000">
+        </div>
+        <div class=" col-lg-5 col-md-12 p-0 d-flex justify-content-center">
+          <div class="hero__div--relative">
+            <div class="hero--relative">
+              <img src="./media/celular-b.svg" alt="Celular" class="hero__img--smartphone hero--animacionuno">
+              <img src="./media/laptop.svg" alt="Laptop" class="hero__img--laptop hero--animaciondos">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <span class="tarjetas">
+              <img src="./media/payments/abitab.svg" alt="" class="payments">
+              <img src="./media/payments/redpagos.svg" alt="" class="payments">
+              <img src="./media/payments/visa.svg" alt="" class="payments">
+              <img src="./media/payments/master.svg" alt="" class="payments">
+              <img src="./media/payments/oca.svg" alt="" class="payments">
+              <img src="./media/payments/scotiabank.svg" alt="" class="payments">
+              <img src="./media/payments/lider.svg" alt="" class="payments">
+              <img src="./media/payments/mercadopago.svg" alt="" class="payments">
+            </span>
+          </div>
+        </div>
+      </div>
+  </header>
+  <!--main-->
+  <main class="main">
+    <div class="container pt-5 mb-5">
+      <div class="row">
+        <!--Características destacadas 1-->
+        <div class="col-xl-4 col-lg-6 col-md-12  p-2 d-flex justify-content-between  ">
+          <article class="rticle article--destacados br-2 p-3 " data-aos="fade-right" data-aos-offset="10"
+            data-aos-easing="ease-in-sine">
+            <div class="article__div">
+              <h3 class=" mb-3 destacado text-center">Reparaciones de todo tipo</h3>
+              <p class="main__parrafo">
+                En Copotec reparamos desde computadoras de sobremesa hasta
+                smartphones.
+                <br />
+              </p>
+              <p class="main__parrafo">
+                ¡Somos especialistas en reparar lo imposible!
+              </p>
+            </div>
+            <!--Imagen destacada 1-->
+            <div class="contenedor d-flex justify-content-center">
+              <img src="./media/dispositivos.svg" alt="Dispositivos moviles" class="main__img" />
+            </div>
+          </article>
+        </div>
+        <!--Características destacadas 2-->
+        <div class="col-xl-4 col-md-12 col-lg-6 p-2 d-flex justify-content-between ">
+          <article class="rticle article--destacados br-2 p-3" data-aos="zoom-out" data-aos-offset="20">
+            <div class="article__div">
+              <h3 class=" mb-3 destacado text-center">Cotizaciones sin costo</h3>
+              <p class="main__parrafo">
+                Puedes traer tu equipo y nosotros realizaremos el diagnóstico
+                correspondiente sin ningún costo.
+                <br />
+              </p>
+              <p class="main__parrafo">
+                ¡Totalmente gratis!
+              </p>
+            </div>
+            <!--Imagen destacada 2-->
+            <div class="contenedor d-flex justify-content-center">
+              <img src="./media/presupuesto.svg" alt="Cartera" class="main__img" />
+            </div>
+          </article>
+        </div>
+        <!--Características destacadas 3-->
+        <div class="col-xl-4 col-md-12 p-2 d-flex justify-content-between ">
+          <article class="rticle article--destacados br-2 p-3" data-aos="fade-left" data-aos-offset="30"
+            data-aos-easing="ease-in-sine">
+            <div class="article__div">
+              <h3 class=" mb-3 destacado text-center">Respaldo sin cargo</h3>
+              <p class="main__parrafo">
+                Hemos notado que en la mayoría de negocios del sector se cobra
+                un precio extra por respaldar su información, llegando en
+                algunos lados a ser más caro que la propia reparación.
+                <br />
+              </p>
+              <p class="main__parrafo">
+                ¡Nosotros sabemos que la información vale por lo que el
+                respaldo está incluido en todas nuestras reparaciones!
+              </p>
+            </div>
+            <!--Imagen destacada 3-->
+            <div class="contenedor d-flex justify-content-center">
+              <img src="./media/sistema.svg" alt="Respaldo de archivos" class="main__img" />
+            </div>
+          </article>
+        </div>
+        <!--Primera imagen sobre nosotros-->
+        <div class="col-lg-4 col-md-12 mt-4 mr-2 hidden "></div>
+      </div>
+      <div class="row">
+        <!--Primer articulo sobre nosotros-->
+        <div class="col-12 mt-4">
+          <h3 class="main__h3 text-center">Sobre nosotros</h3>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center">
+          <img src="./media/informacion.svg" class="main__img" data-aos="fade-right" data-aos-offset="340"
+            data-aos-easing="ease-in-sine" alt="Persona en un escritorio" />
+        </div>
+        <div class="col-md-8 pt-3" data-aos-offset="400" data-aos="fade-left" data-aos-easing="ease-out-cubic">
+          <p class="main__parrafo lh-3">
+            Somos un servicio técnico especializado en computadoras y
+            celulares. Nos ecargamos de cualquier tipo de falla, desde la
+            más sencilla hasta la que nadie quiere hacer, con precios
+            justos y calidad garantizada.
+            <br />
+          </p>
+          <p class="main__parrafo">
+            Trabajamos todo tipo de marcas y con repuestos de calidad. Nos
+            esforzamos por cada día ser más rápidos y productivos, además
+            de mantener su confianza.
+            <br />
+          </p>
+          <p class="main__parrafo">
+            Los presupuestos se realizan en las primeras 24 horas de
+            recibido el equipo.
+          </p>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col div__conexion">
+              <img class="conexion w-100 h-100" data-aos-offset="400" data-aos="flip-right"
+                src="./media/conexion.svg" alt="Lineas de conexion">
+            </div>
+          </div>
+        </div>
+        <!--Segundo articulo de sobre nosotros-->
+        <div class="col-md-8 col-12 " data-aos="fade-right" data-aos-offset="400">
+          <p class="main__parrafo lh-3">
+            Contamos con más de 5 años reparando todo tipo de
+            dispositivos, nos apasiona lo que hacemos y por eso mismo
+            puede tener por seguro que el trabajo será realizado de la
+            mejor manera.
+            <br>
+          </p>
+          <p class="main__parrafo">
+            ¡No se preocupe que estamos para ocuparnos!
+          </p>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center" data-aos-offset="400" data-aos="fade-left" data-aos-easing="ease-out-cubic">
+          <!--Segunda imagen de sobre nosotros-->
+          <img src="./media/informacion2.svg" class="main__img"  alt="Mujer con un smartphone" />
+        </div>
+      </div>
+    </div>
+  </main>
+  <!--Contenedor del footer-->
+  <div class="container-fluid m-0">
+    <div class="row">
+      <div class="col-12 p-0">
+        <footer class="footer ">
+          <!--Métodos de pago-->
+          <div class="linea d-flex justify-content-between align-items-center">
+            <span class="">
+              <!--Imágenes de tarjetas-->
+              <img src="./media/payments/abitab.svg" alt="" class="payments">
+              <img src="./media/payments/redpagos.svg" alt="" class="payments">
+              <img src="./media/payments/visa.svg" alt="" class="payments">
+              <img src="./media/payments/master.svg" alt="" class="payments">
+              <img src="./media/payments/oca.svg" alt="" class="payments">
+              <img src="./media/payments/scotiabank.svg" alt="" class="payments">
+              <img src="./media/payments/lider.svg" alt="" class="payments">
+              <img src="./media/payments/mercadopago.svg" alt="" class="payments">
+            </span>
+            <!--Redes sociales footer-->
+            <span class="footer--social d-flex">
+              <a href="https://www.instagram.com/copotec/"><img class="footer--imagen m-1" src="./media/facebook-square-brands.svg" alt=""></a>
+              <a href="https://www.instagram.com/copotec/"><img class="footer--imagen m-1" src="./media/instagram-square-brands.svg" alt=""></a>
+            </span>
+          </div>
+      </div>
+      <div class="col-12 footer--superior m-0 d-flex justify-content-between align-items-center">
+        <div class="footer--horarios">
+          <!--Horarios en footer-->
+          <h4 class="footer--title">Copotecno</h4>
+          <p>Tel: 092 347 000<br>Correo: contacto@copotecno.com
+            <br>Horario: Luneas a viernes de 08:00 a 18:00 hs
+          </p>
+        </div>
+        <div class="footer--pestañas d-flex flex-column align-items-end">
+          <!--Nav de footer-->
+          <h4 class="footer--title">Pestañas</h4>
+          <a class="footer--anchor" href="./index.html">Inicio</a>
+          <a class="footer--anchor" href="./pages/computadoras.html">Computadoras</a>
+          <a class="footer--anchor" href="./pages/celulares.html">Celulares</a>
+          <a class="footer--anchor" href="./pages/cotizaciones.html">Cotizaciones</a>
+          <a class="footer--anchor" href="./pages/contacto.html">Contacto</a>
+        </div>
+      </div>
+      <div class="col-12 footer--inferior d-flex justify-content-start">
+        <!--Segunda parte del footer-->
+        <div class="text-center p-3">
+          © 2021 Copyright: Nicolás López
+        </div>
+      </div>
+      </footer>
+    </div>
+  </div>
+  <!--Script Bootstrap-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <!--Script AOS-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true });
+  </script>
+</body>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+@import "./variables";
+//Configuración del footer//
+.footer{
+  &--superior{
+    height: 12rem;
+    background-color: $color-fondo-uno;
+    font-family: "Ubuntu", sans-serif;
+  }
+  &--inferior{
+    height: auto;
+    background-color: $color-fondo-dos;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+  }
+  &--imagen{
+    width: 2rem;
+  }
+  &--horarios{
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+
+  }
+  &--anchor{
+    text-decoration: none;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+  }
+  &--anchor:hover{
+    color: $color-active;
+    transition: 0.2s;
+  }
+  &--title{
+    color: white;
+  }
+}
+//Línea divisoria footer tarjetas//
+.linea{
+  border-top: solid 0.1rem black;
+  width: 100%;
+  background-color: $color-fondo-primario;
+}

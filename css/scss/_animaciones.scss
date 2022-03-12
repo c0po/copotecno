@@ -1,0 +1,78 @@
+@import "./variables";
+//Animación de alerta en pestaña de computadoras//
+.warning {
+  display: flex;
+  position: relative;
+  object-position: 50% 50%;
+  width: 4rem;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  animation: warning 4s infinite;
+  
+  @keyframes warning {
+    0% {
+      transform: rotate(20deg);
+    }
+    50% {
+      transform: rotate(-20deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+}
+//Animación de moneda en pestaña cotiaciones//
+.moneda {
+  height: 20%;
+  width: auto;
+  animation: moneda 2s infinite;
+
+  @keyframes moneda {
+    0% {
+      transform: translatey(0.5rem);
+    }
+    50% {
+      transform: translatey(-0.5rem);
+    }
+    100% {
+      transform: translatey(0.5rem);
+    }
+  }
+}
+//Animacion en hero//
+.hero--animaciondos{
+  animation: subir 2.5s 1;
+  transition-timing-function: ease-in;
+  
+}
+.hero--animacionuno{
+  animation: subir 3s 1;
+  
+}
+
+@keyframes subir{
+  0%{transform: translatey(20rem);
+  }
+  
+  100%{
+    transform: translateY(0rem);
+  }
+}
+//Animación de avion en contacto//
+
+.avion{
+  animation: volar 5s infinite;
+  animation-timing-function:ease;
+
+}
+@keyframes volar{
+  0%{transform: translatey(0.5rem);
+  }
+  50%{
+    transform: translateY(0rem);
+  }
+  100%{
+    transform: translateY(0.5rem);
+  }
+}

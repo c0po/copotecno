@@ -1,0 +1,60 @@
+@import "./variables";
+//Formulario//
+.form{
+  &__fieldset {
+    height: 21rem;
+    width: 21rem;
+    background-color: $color-contenedor;
+    padding: 3rem 1.5rem 3rem 1.5rem;
+    border: solid 0.5rem $color-primario;
+    border-radius: 0.5rem;
+  }
+  &--mensaje {
+    resize: none;
+  }
+}
+
+//Estilo boton enviar//
+.form--boton {
+  background-color: $color-primario;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 0.5rem;
+}
+.form--boton:hover {
+  @extend .form--boton;
+  background-color: $color-active;
+  transition: 0.5s;
+}
+.form--boton:active {
+  @extend .form--boton:hover;
+  background-color: $color-active;
+}
+//Número telefónico//
+.icono {
+  width: 2.5rem;
+  height: auto;
+  
+}
+//Mapa de ubicación//
+.mapa{
+  width:20rem;
+  height: 20rem;
+  
+}
+.div--mapa{
+  width: auto;
+  height: auto;
+  border: solid 0.5rem $color-primario;
+  border-radius: 0.5rem;
+}
+//Recuadro de contacto bajo el formulario//
+.span--contacto{
+  width: 100%;
+  height: auto;
+}
+//Avion que levita//
+.avion{
+  width: auto;
+  height: 10rem;
+}

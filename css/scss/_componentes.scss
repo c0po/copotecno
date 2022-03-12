@@ -1,0 +1,16 @@
+@import "./variables";
+
+/*Conexion de "Sobre Nosotros" en index*/
+.div__conexion {
+  height: 20rem;
+}
+/*Lineas divisorias de alerta en computadoras*/
+.line {
+  background-color:$color-primario;
+  height: 0.1rem;
+}
+//Alcancia cotizaciones//
+.div--cotizaciones{
+  height: 10rem;
+  width: 100%;
+}

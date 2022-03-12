@@ -1,0 +1,82 @@
+@import "./variables";
+//Barra de navegación//
+.nav {
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 2.8rem;
+  background-color: $color-fondo-dos !important;
+  &__ul--fondo{
+    background-color: $color-fondo-secundario;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+    width: 100%;
+    padding-left: 0.5rem;
+    text-decoration: none;
+  }
+  &--logo {
+    width: 10rem;
+    height: 100%;
+  }
+  .offcanvas{
+    width: 70%;
+  }
+  .offcanvas-header{
+    background-color: $color-fondo-dos;
+    height: 3.7rem;
+  }
+  .offcanvas-body{
+    background-color: $color-fondo-uno ;
+  }
+  .btn-close{
+    filter: invert(1);
+  }
+ 
+  
+//estilos de los Anchor de la nav//
+  &--link {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    background-image: radial-gradient($color-primario, $color-primario);
+    background-position: 0% 90%;
+    background-repeat: no-repeat;
+    background-size: 0% 0rem;
+   
+  }
+  &--link:hover {
+    background-size: 100% 0.30rem;
+    background-position: 50% 100% ;
+    transition: 0.15s;
+    color: $color-primario;
+  }
+  .nav-link:active{
+    outline: none;
+  }
+  .nav-link:focus{
+    outline: none;
+  }
+  
+  &-link:hover {
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    text-decoration: none; 
+    transition: 0.2s;
+    color: $color-primario !important;
+  }
+  &-link:active{
+    color: $color-active !important;
+  }
+  &__menu--img{
+    filter: invert(1);
+  }
+ //Boton de la nav responsive//
+}
+.boton--nav{
+  width: 100%;
+  height: auto;
+}
+.navbar-nav{
+  background-color: $color-fondo-dos;
+  padding-left: 1rem;
+  border-radius: 0.5rem;
+}

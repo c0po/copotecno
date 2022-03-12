@@ -1,0 +1,110 @@
+.hero{
+  
+  width: 100%;
+  height: 50vh;
+  overflow: hidden;
+  //Pc y smartphone que suben//
+  &__img--subiendo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+}
+//Imagen de smartphone hero//
+.hero__img--smartphone {
+  position: absolute;
+  width: 15rem;
+  height: auto;
+  bottom: -5rem;
+  left: 0%;
+  right: 100%;
+
+}
+//Imagen de laptop hero//
+.hero__img--laptop {
+  position: absolute;
+  width: 30rem;
+  height: auto;
+  bottom: -10rem;
+  left: 10%;
+  right: 90%;
+  
+}
+.hero__div--relative {
+  width: 20rem;
+  min-height: 20rem;
+  position: relative;
+  bottom: 0px;
+}
+//Boton de comunicar Hero//
+.span__a--link {
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 0.1rem solid $color-primario;
+  border-radius: 0.5rem;
+
+}
+.span__a--link:hover {
+  transition:0.5s;
+  color: $color-primario;
+
+}
+.hero__div--title {
+  width: 100%;
+  height: 80%;
+}
+.div__title--hero{
+  font-family: 'Ubuntu', sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+  text-align: left;
+  width: auto;
+  letter-spacing: 0.2rem
+}
+.div__title--importante{
+  @extend .div__title--hero;
+  margin-top: 2rem;
+  color:$color-primario;
+}
+//Fondo del hero//
+.fondo{
+  position: absolute;
+  width: 100%;
+  max-height: 60vh;
+  bottom: -5rem;
+  left: 0%;
+  right: auto;
+  object-fit: cover;
+}
+//Contenedor con las tarjetas//
+.tarjetas{
+  width:100%;
+  height: auto;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+ 
+}
+//Tarjetas de pago aceptadas//
+.payments{
+  height: 1rem;
+  width: auto;
+  margin: 0.5rem;
+}
+//Contenedor del fondo del hero//
+.hero__div--fondo{
+  overflow: hidden;
+  height: 50vh;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
