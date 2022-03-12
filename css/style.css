@@ -32,7 +32,7 @@ header { background-color: #f0f0f0; }
 
 .nav__menu--img { -webkit-filter: invert(1); filter: invert(1); }
 
-.boton--nav { width: 100%; height: auto; }
+.boton--nav { width: 100%; height: 100%; }
 
 .navbar-nav { background-color: #313131; padding-left: 1rem; border-radius: 0.5rem; }
 
@@ -69,14 +69,6 @@ header { background-color: #f0f0f0; }
 .main__img { width: 100%; height: 100%; }
 
 .article--destacados { background-color: #69a7cec4; min-height: 25rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-radius: 0.3rem; }
-
-/*Conexion de "Sobre Nosotros" en index*/
-.div__conexion { height: 20rem; }
-
-/*Lineas divisorias de alerta en computadoras*/
-.line { background-color: #69a7cec4; height: 0.1rem; }
-
-.div--cotizaciones { height: 10rem; width: 100%; }
 
 .form__fieldset { height: 21rem; width: 21rem; background-color: #f9f9f9; padding: 3rem 1.5rem 3rem 1.5rem; border: solid 0.5rem #69a7cec4; border-radius: 0.5rem; }
 
