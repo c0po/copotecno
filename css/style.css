@@ -70,6 +70,8 @@ header { background-color: #f0f0f0; }
 
 .article--destacados { background-color: #69a7cec4; min-height: 25rem; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -ms-flex-direction: column; flex-direction: column; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; border-radius: 0.3rem; }
 
+.main__img--alcancia { width: 50%; height: 50%; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-item-align: center; align-self: center; }
+
 .form__fieldset { height: 21rem; width: 21rem; background-color: #f9f9f9; padding: 3rem 1.5rem 3rem 1.5rem; border: solid 0.5rem #69a7cec4; border-radius: 0.5rem; }
 
 .form--mensaje { resize: none; }
