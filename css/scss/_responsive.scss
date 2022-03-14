@@ -2,19 +2,21 @@
 // Responsive //
 @media screen and(max-width: 992px) {
   .nav {
-    width: 100%;
     height: auto;
   }
   .hero {
     padding-top: 2rem;
-    max-height: max-content;
+    height: 100vh;
     width: 100%;
   }
- 
+  //Margen del contenedor del titulo del hero//
+  .hero__div--title{
+    margin-left: 1.5rem;
+  }
   //Ancho del titulo del hero//
   .div__title--hero{
     width: 100%;
-   height: auto; 
+    
   }
   
 }
@@ -24,7 +26,7 @@
   }
   //Tamaño del titulo del hero//
   .div__title--hero{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   .hero__img--laptop {
   position: absolute;
