@@ -24,8 +24,10 @@
 }
 //Animación de moneda en pestaña cotiaciones//
 .moneda {
-  height: 20%;
-  width: auto;
+  height: 15%;
+  width: 15%;
+  display: flex;
+  align-self: center;
   animation: moneda 2s infinite;
 
   @keyframes moneda {
