@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&family=Ubuntu&display=swap");
 * { margin: 0px; padding: 0px; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-header { background-color: #f0f0f0; }
+header { background-color: #f0f0f0; width: 100%; height: auto; }
 
 .nav { position: fixed; z-index: 100; width: 100%; height: 2.8rem; background-color: #313131 !important; }
 
@@ -108,8 +108,8 @@ header { background-color: #f0f0f0; }
 
 .linea { border-top: solid 0.1rem black; width: 100%; background-color: #f0f0f0; }
 
-@media screen and (max-width: 992px) { .nav { height: auto; }
-  .hero { padding-top: 2rem; height: 100vh; width: 100%; }
+@media screen and (max-width: 992px) { .nav { width: 100%; height: auto; }
+  .hero { padding-top: 2rem; max-height: -webkit-max-content; max-height: -moz-max-content; max-height: max-content; width: 100%; }
   .hero__div--title { margin-left: 1.5rem; }
   .div__title--hero, .div__title--importante { width: 100%; } }
 

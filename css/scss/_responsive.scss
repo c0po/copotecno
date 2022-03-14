@@ -2,11 +2,12 @@
 // Responsive //
 @media screen and(max-width: 992px) {
   .nav {
+    width: 100%;
     height: auto;
   }
   .hero {
     padding-top: 2rem;
-    height: 100vh;
+    max-height: max-content;
     width: 100%;
   }
   //Margen del contenedor del titulo del hero//
